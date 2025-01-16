@@ -142,7 +142,7 @@ form div {
 form label {
   width: 200px;
   padding: 8px;
-  text-align: end;
+  text-align: right;
 }
 .message {
   text-align: start;
