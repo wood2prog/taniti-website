@@ -144,6 +144,12 @@ form label {
   padding: 8px;
   text-align: right;
 }
+
+form label::after {
+  content: "*";
+  color: red;
+}
+
 .message {
   text-align: start;
 }
@@ -154,6 +160,10 @@ form button {
   margin: 10px 0;
   background-color: #43bebe;
   color: white;
+}
+
+.required {
+  color: red;
 }
 
 footer {
